@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=DynaPuff&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* root*/
+:root{
+
+    --primaryColor: black;
+    --secondaryColor: white;
+    --alternativeColor:#867e8c;
+    --borderColor: #76a2a7;
+    font-family: 'Caveat', cursive,'DynaPuff', cursive,'PT Serif', serif;
+    font-size: large;
+ 
+ 
+}
+/* Logo */
+#logo {
+    width: 15rem;
+    
+}
+body{
+    background-image: url(https://i.postimg.cc/9f1QtHbY/logo5.jpg);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    float: right;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    font-size: larger;
+
+
+}
+nav ul li a{
+
+}
